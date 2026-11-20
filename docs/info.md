@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+If the enabler is on, then the output can be toggled
 
 ## How to test
 
-Explain how to use your project
+power the enabler, vary the input. Then while the input is powered, release the enabler. The output should remain HIGH
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+LED
