@@ -4,7 +4,7 @@ project:
   title:        "D-Latch"      # D-Latch
   author:       "Joseph Nguyen Lydon"      # Joseph Nguyen Lydon
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # If the enabler is switched on, an input can be used to toggle Q
+  description:  "if the enabler is on, the input is used to toggle the output"      # If the enabler is switched on, an input can be used to toggle Q
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -27,7 +27,7 @@ pinout:
 
   # Outputs
   uo[0]: "Q"
-  uo[1]: "Not Q"
+  uo[1]: "Not(Q)"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
